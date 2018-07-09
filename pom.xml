@@ -12,6 +12,20 @@
     <name>weteam-dependencies</name>
     <description>this is maven project dependencies pom define of weteam, and base on spring-boot 2.x</description>
 
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>larry.koo</name>
+            <email>gumutianqi@gmail.com</email>
+        </developer>
+    </developers>
+
     <scm>
         <url>https://github.com/gumutianqi/weteam-dependencies.git</url>
         <connection>scm:git:https://github.com/gumutianqi/weteam-dependencies.git</connection>
