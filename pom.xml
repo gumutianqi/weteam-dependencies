@@ -11,6 +11,7 @@
 
     <name>weteam-dependencies</name>
     <description>this is maven project dependencies pom define of weteam, and base on spring-boot 2.x</description>
+    <url>https://github.com/gumutianqi/weteam-dependencies</url>
 
     <licenses>
         <license>
