@@ -50,6 +50,7 @@
         <javadoc.skip>true</javadoc.skip>
         <gpg.skip>false</gpg.skip>
 
+
         <!-- spring -->
         <spring-boot.version>2.0.4.RELEASE</spring-boot.version>
         <spring-cloud.version>Finchley.SR1</spring-cloud.version>
@@ -69,6 +70,8 @@
         <beetl.version>2.8.7</beetl.version>
         <beetlsql.version>2.10.32</beetlsql.version>
         <beetl-framework-starter.version>1.1.59.RELEASE</beetl-framework-starter.version>
+        <influxdb.version>2.12</influxdb.version>
+        <io-micrometer.version>1.0.6</io-micrometer.version>
 
         <!-- alibaba -->
         <fastjson.version>1.2.49</fastjson.version>
@@ -81,13 +84,18 @@
         <!-- open-sources -->
         <lombok.version>1.18.2</lombok.version>
         <junit.version>4.12</junit.version>
-        <guava.version>26.0-jre</guava.version>
+        <google-guava.version>26.0-jre</google-guava.version>
+        <google.zxing.version>3.3.3</google.zxing.version>
         <okio.version>>1.15.0</okio.version>
         <okhttp.version>3.11.0</okhttp.version>
         <jsoup.version>1.11.3</jsoup.version>
         <jodd.version>5.0.3</jodd.version>
+        <bouncycastle-jdk16.version>1.46</bouncycastle-jdk16.version>
+        <ip2region.version>1.7</ip2region.version>
 
+        <!-- java jsr -->
         <javax-inject.version>1</javax-inject.version>
+        <google-guice.version>4.2.0</google-guice.version>
         <javax-jsr311-api.version>1.1.1</javax-jsr311-api.version>
         <javax-validation.version>2.0.1.Final</javax-validation.version>
         <jjwt.version>0.9.1</jjwt.version>
@@ -126,7 +134,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
 
             <!-- data source -->
             <dependency>
@@ -195,6 +202,21 @@
                 <artifactId>beetl-framework-starter</artifactId>
                 <version>${beetl-framework-starter.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.influxdb</groupId>
+                <artifactId>influxdb-java</artifactId>
+                <version>${influxdb.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.micrometer</groupId>
+                <artifactId>micrometer-core</artifactId>
+                <version>${io-micrometer.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.micrometer</groupId>
+                <artifactId>micrometer-registry-prometheus</artifactId>
+                <version>${io-micrometer.version}</version>
+            </dependency>
 
             <!-- alibaba -->
             <dependency>
@@ -236,7 +258,12 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>${guava.version}</version>
+                <version>${google-guava.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.zxing</groupId>
+                <artifactId>core</artifactId>
+                <version>${google.zxing.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.squareup.okio</groupId>
@@ -258,11 +285,27 @@
                 <artifactId>jodd-core</artifactId>
                 <version>${jodd.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.bouncycastle</groupId>
+                <artifactId>bcprov-jdk16</artifactId>
+                <version>${bouncycastle-jdk16.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.lionsoul</groupId>
+                <artifactId>ip2region</artifactId>
+                <version>${ip2region.version}</version>
+            </dependency>
 
+            <!-- java jsr -->
             <dependency>
                 <groupId>javax.inject</groupId>
                 <artifactId>javax.inject</artifactId>
                 <version>${javax-inject.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.inject</groupId>
+                <artifactId>guice</artifactId>
+                <version>${google-guice.version}</version>
             </dependency>
             <dependency>
                 <groupId>javax.ws.rs</groupId>
