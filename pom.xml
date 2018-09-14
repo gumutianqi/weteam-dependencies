@@ -83,7 +83,7 @@
 
         <!-- open-sources -->
         <lombok.version>1.18.2</lombok.version>
-        <junit.version>5.3.1</junit.version>
+        <junit.version>4.12</junit.version>
         <google-guava.version>26.0-jre</google-guava.version>
         <google.zxing.version>3.3.3</google.zxing.version>
         <okio.version>>2.0.0</okio.version>
