@@ -6,7 +6,7 @@
 
     <groupId>me.weteam</groupId>
     <artifactId>weteam-dependencies</artifactId>
-    <version>1.2.2</version>
+    <version>1.2.3</version>
     <packaging>pom</packaging>
 
     <name>weteam-dependencies</name>
@@ -61,24 +61,24 @@
         <!-- data source -->
         <mysql-driver.version>6.0.6</mysql-driver.version>
         <HikariCP.version>3.2.0</HikariCP.version>
-        <alibaba-druid.version>1.1.10</alibaba-druid.version>
-        <druid-spring-boot.version>1.1.10</druid-spring-boot.version>
+        <alibaba-druid.version>1.1.12</alibaba-druid.version>
+        <druid-spring-boot.version>1.1.12</druid-spring-boot.version>
         <mongobee.version>0.13</mongobee.version>
         <mongodb.version>3.8.2</mongodb.version>
         <jedis.verision>2.9.0</jedis.verision>
-        <redis.lettuce.version>5.1.0.RELEASE</redis.lettuce.version>
-        <beetl.version>2.9.2</beetl.version>
-        <beetlsql.version>2.10.38</beetlsql.version>
-        <beetl-framework-starter.version>1.1.66.RELEASE</beetl-framework-starter.version>
-        <influxdb.version>2.13</influxdb.version>
-        <io-micrometer.version>1.0.6</io-micrometer.version>
+        <redis.lettuce.version>5.1.1.RELEASE</redis.lettuce.version>
+        <beetl.version>2.9.3</beetl.version>
+        <beetlsql.version>2.10.39</beetlsql.version>
+        <beetl-framework-starter.version>1.1.67.RELEASE</beetl-framework-starter.version>
+        <influxdb.version>2.14</influxdb.version>
+        <io-micrometer.version>1.0.7</io-micrometer.version>
 
         <!-- alibaba -->
-        <fastjson.version>1.2.49</fastjson.version>
+        <fastjson.version>1.2.51</fastjson.version>
         <jetcache.version>2.5.7</jetcache.version>
 
         <!-- elasticsearch -->
-        <elasticsearch.version>6.4.1</elasticsearch.version>
+        <elasticsearch.version>6.4.2</elasticsearch.version>
         <word.version>1.3.1</word.version>
 
         <!-- open-sources -->
@@ -90,10 +90,10 @@
         <okio.version>>2.1.0</okio.version>
         <okhttp.version>3.11.0</okhttp.version>
         <jsoup.version>1.11.3</jsoup.version>
-        <jodd.version>5.0.4</jodd.version>
+        <jodd.version>5.0.5</jodd.version>
         <bouncycastle-jdk16.version>1.46</bouncycastle-jdk16.version>
-        <ip2region.version>1.7</ip2region.version>
-        <alibaba.easyexcel>1.0.4</alibaba.easyexcel>
+        <ip2region.version>1.7.2</ip2region.version>
+        <alibaba.easyexcel>1.1.0</alibaba.easyexcel>
 
         <!-- java jsr -->
         <javax-inject.version>1</javax-inject.version>
@@ -110,7 +110,7 @@
         <swagger-spring-boot-starter.version>1.8.0.RELEASE</swagger-spring-boot-starter.version>
 
         <!-- aliyun sdk -->
-        <aliyun-java-sdk-core.version>4.1.0</aliyun-java-sdk-core.version>
+        <aliyun-java-sdk-core.version>4.1.2</aliyun-java-sdk-core.version>
         <aliyun-java-sdk-green.version>3.3.2</aliyun-java-sdk-green.version>
         <aliyun-java-sdk-dysmsapi.version>1.1.0</aliyun-java-sdk-dysmsapi.version>
         <aliyun-sdk-oss.version>3.3.0</aliyun-sdk-oss.version>
