@@ -50,9 +50,8 @@
         <javadoc.skip>true</javadoc.skip>
         <gpg.skip>false</gpg.skip>
 
-
         <!-- spring -->
-        <spring-boot.version>2.0.5.RELEASE</spring-boot.version>
+        <spring-boot.version>2.0.6.RELEASE</spring-boot.version>
         <spring-cloud.version>Finchley.SR1</spring-cloud.version>
         <openfeign.version>10.0.1</openfeign.version>
 
@@ -62,7 +61,7 @@
         <mysql-driver.version>6.0.6</mysql-driver.version>
         <HikariCP.version>3.2.0</HikariCP.version>
         <alibaba-druid.version>1.1.12</alibaba-druid.version>
-        <druid-spring-boot.version>1.1.12</druid-spring-boot.version>
+        <druid-spring-boot.version>1.1.10</druid-spring-boot.version>
         <mongobee.version>0.13</mongobee.version>
         <mongodb.version>3.8.2</mongodb.version>
         <jedis.verision>2.9.0</jedis.verision>
@@ -84,7 +83,7 @@
         <!-- open-sources -->
         <lombok.version>1.18.2</lombok.version>
         <junit.version>4.12</junit.version>
-        <google-guava.version>26.0-jre</google-guava.version>
+        <google-guava.version>27.0-jre</google-guava.version>
         <google.zxing.version>3.3.3</google.zxing.version>
         <google.tink.version>1.2.0</google.tink.version>
         <okio.version>>2.1.0</okio.version>
