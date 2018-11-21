@@ -66,14 +66,14 @@
         <mongodb.version>3.9.0</mongodb.version>
         <jedis.verision>2.9.0</jedis.verision>
         <redis.lettuce.version>5.1.2.RELEASE</redis.lettuce.version>
-        <beetl.version>2.9.4</beetl.version>
+        <beetl.version>2.9.6</beetl.version>
         <beetlsql.version>2.10.40</beetlsql.version>
         <beetl-framework-starter.version>1.1.68.RELEASE</beetl-framework-starter.version>
         <influxdb.version>2.14</influxdb.version>
         <io-micrometer.version>1.1.0</io-micrometer.version>
 
         <!-- alibaba -->
-        <fastjson.version>1.2.51</fastjson.version>
+        <fastjson.version>1.2.52</fastjson.version>
         <jetcache.version>2.5.9</jetcache.version>
 
         <!-- elasticsearch -->
@@ -88,7 +88,7 @@
         <google.zxing.version>3.3.3</google.zxing.version>
         <google.tink.version>1.2.0</google.tink.version>
         <okio.version>2.1.0</okio.version>
-        <okhttp.version>3.11.0</okhttp.version>
+        <okhttp.version>3.12.0</okhttp.version>
         <jsoup.version>1.11.3</jsoup.version>
         <jodd.version>5.0.6</jodd.version>
         <bouncycastle-jdk16.version>1.46</bouncycastle-jdk16.version>
@@ -110,7 +110,7 @@
         <swagger-spring-boot-starter.version>1.8.0.RELEASE</swagger-spring-boot-starter.version>
 
         <!-- aliyun sdk -->
-        <aliyun-java-sdk-core.version>4.2.1</aliyun-java-sdk-core.version>
+        <aliyun-java-sdk-core.version>4.2.2</aliyun-java-sdk-core.version>
         <aliyun-java-sdk-alidns.version>2.0.6</aliyun-java-sdk-alidns.version>
         <aliyun-java-sdk-green.version>3.3.2</aliyun-java-sdk-green.version>
         <aliyun-java-sdk-dysmsapi.version>1.1.0</aliyun-java-sdk-dysmsapi.version>
