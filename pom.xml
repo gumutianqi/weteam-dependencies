@@ -244,6 +244,11 @@
                 <artifactId>sentinel-core</artifactId>
                 <version>${alibaba.csp.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.alibaba.csp</groupId>
+                <artifactId>sentinel-transport-simple-http</artifactId>
+                <version>${alibaba.csp.version}</version>
+            </dependency>
 
             <!-- elasticsearch -->
             <dependency>
