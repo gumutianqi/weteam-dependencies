@@ -6,7 +6,7 @@
 
     <groupId>me.weteam</groupId>
     <artifactId>weteam-dependencies</artifactId>
-    <version>1.3.0</version>
+    <version>1.5.0</version>
     <packaging>pom</packaging>
 
     <name>weteam-dependencies</name>
@@ -44,6 +44,7 @@
 
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
+        <maven-assembly-plugin.version>3.1.1</maven-assembly-plugin.version>
         <maven-javadoc-plugin.version>3.0.1</maven-javadoc-plugin.version>
         <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -51,73 +52,78 @@
         <gpg.skip>false</gpg.skip>
 
         <!-- spring -->
-        <spring-boot.version>2.0.6.RELEASE</spring-boot.version>
-        <spring-cloud.version>Finchley.SR2</spring-cloud.version>
-        <spring-cloud.alibaba.version>0.2.0.RELEASE</spring-cloud.alibaba.version>
-        <openfeign.version>10.1.0</openfeign.version>
+        <spring-boot.version>2.1.3.RELEASE</spring-boot.version>
+        <spring-cloud.version>Greenwich</spring-cloud.version>
+        <spring-cloud.alibaba.version>0.2.1.RELEASE</spring-cloud.alibaba.version>
+        <openfeign.version>10.2.0</openfeign.version>
 
         <!-- data source -->
-        <mysql-driver.version>6.0.6</mysql-driver.version>
-        <HikariCP.version>3.2.0</HikariCP.version>
+        <mysql-driver-6.version>6.0.6</mysql-driver-6.version>
+        <mysql-driver-8.version>8.0.15</mysql-driver-8.version>
+        <HikariCP.version>3.3.1</HikariCP.version>
+        <mongodb-driver.version>3.10.1</mongodb-driver.version>
         <mongobee.version>0.13</mongobee.version>
-        <mongodb.version>3.9.0</mongodb.version>
-        <jedis.verision>2.9.0</jedis.verision>
-        <redis.lettuce.version>5.1.2.RELEASE</redis.lettuce.version>
-        <beetl.version>2.9.6</beetl.version>
-        <beetlsql.version>2.10.40</beetlsql.version>
-        <beetl-framework-starter.version>1.1.68.RELEASE</beetl-framework-starter.version>
-        <influxdb.version>2.14</influxdb.version>
-        <io-micrometer.version>1.1.0</io-micrometer.version>
+        <jedis.verision>3.0.1</jedis.verision>
+        <redis.lettuce.version>5.1.5.RELEASE</redis.lettuce.version>
+        <beetl.version>2.9.8</beetl.version>
+        <beetlsql.version>2.11.1</beetlsql.version>
+        <beetl-framework-starter.version>1.1.75.RELEASE</beetl-framework-starter.version>
+        <influxdb.version>2.15</influxdb.version>
+        <io-micrometer.version>1.1.3</io-micrometer.version>
+        <sentry.version>1.7.21</sentry.version>
 
         <!-- alibaba openSources -->
-        <alibaba.fastjson.version>1.2.53</alibaba.fastjson.version>
-        <alibaba.jetcache.version>2.5.9</alibaba.jetcache.version>
+        <alibaba.fastjson.version>1.2.56</alibaba.fastjson.version>
+        <alibaba.jetcache.version>2.5.11</alibaba.jetcache.version>
         <alibaba.easyexcel.version>1.1.1</alibaba.easyexcel.version>
-        <alibaba.csp.version>1.3.0-GA</alibaba.csp.version>
-        <alibaba.druid.version>1.1.12</alibaba.druid.version>
-        <druid-spring-boot.version>1.1.10</druid-spring-boot.version>
+        <alibaba.csp.version>1.4.2</alibaba.csp.version>
+        <alibaba.druid.version>1.1.14</alibaba.druid.version>
+        <drtrang.druid.version>1.1.10.2</drtrang.druid.version>
 
         <!-- elasticsearch -->
-        <elasticsearch.version>6.4.3</elasticsearch.version>
+        <elasticsearch.version>6.6.1</elasticsearch.version>
         <word.version>1.3.1</word.version>
 
         <!-- open-sources -->
-        <lombok.version>1.18.4</lombok.version>
+        <lombok.version>1.18.6</lombok.version>
         <junit.version>4.12</junit.version>
-        <google.guava.version>27.0-jre</google.guava.version>
+        <google.guava.version>27.1-jre</google.guava.version>
         <google.guice.version>4.2.2</google.guice.version>
         <google.zxing.version>3.3.3</google.zxing.version>
-        <google.tink.version>1.2.0</google.tink.version>
-        <okio.version>2.1.0</okio.version>
-        <okhttp.version>3.12.0</okhttp.version>
+        <google.tink.version>1.2.2</google.tink.version>
+        <okio.version>2.2.2</okio.version>
+        <okhttp.version>3.13.1</okhttp.version>
         <jsoup.version>1.11.3</jsoup.version>
-        <jodd.version>5.0.6</jodd.version>
+        <jodd.version>5.0.10</jodd.version>
         <bouncycastle-jdk16.version>1.46</bouncycastle-jdk16.version>
         <ip2region.version>1.7.2</ip2region.version>
-        <jaeger-client.version>0.32.0</jaeger-client.version>
+        <jaeger-client.version>0.34.0</jaeger-client.version>
+        <apache.skywalking-plugin.version>6.0.0-GA</apache.skywalking-plugin.version>
+        <keycloak.version>5.0.0</keycloak.version>
 
         <!-- java jsr -->
         <javax-inject.version>1</javax-inject.version>
         <javax-jsr311-api.version>1.1.1</javax-jsr311-api.version>
         <javax-validation.version>2.0.1.Final</javax-validation.version>
         <jjwt.version>0.9.1</jjwt.version>
-        <reflectasm.version>1.11.7</reflectasm.version>
-        <mapstruct.version>1.2.0.Final</mapstruct.version>
+        <reflectasm.version>1.11.8</reflectasm.version>
+        <mapstruct.version>1.3.0.Final</mapstruct.version>
 
         <!-- swagger -->
         <springfox.version>2.9.2</springfox.version>
-        <swagger.version>1.5.21</swagger.version>
+        <swagger.version>1.5.22</swagger.version>
         <swagger-spring-boot-starter.version>1.8.0.RELEASE</swagger-spring-boot-starter.version>
 
         <!-- aliyun sdk -->
-        <aliyun-java-sdk-core.version>4.2.2</aliyun-java-sdk-core.version>
+        <aliyun-java-sdk-core.version>4.3.5</aliyun-java-sdk-core.version>
         <aliyun-java-sdk-alidns.version>2.0.6</aliyun-java-sdk-alidns.version>
-        <aliyun-java-sdk-green.version>3.4.0</aliyun-java-sdk-green.version>
+        <aliyun-java-sdk-green.version>3.4.3</aliyun-java-sdk-green.version>
         <aliyun-java-sdk-dysmsapi.version>1.1.0</aliyun-java-sdk-dysmsapi.version>
-        <aliyun-sdk-oss.version>3.3.0</aliyun-sdk-oss.version>
+        <aliyun-sdk-oss.version>3.4.2</aliyun-sdk-oss.version>
         <aliyun-sdk-mns.version>1.1.8.6</aliyun-sdk-mns.version>
-        <aliyun-java-sdk-push.version>3.10.0</aliyun-java-sdk-push.version>
-        <aliyun-java-sdk-alikafka.version>1.0.2</aliyun-java-sdk-alikafka.version>
+        <aliyun-java-sdk-push.version>3.10.1</aliyun-java-sdk-push.version>
+        <aliyun-java-sdk-alikafka.version>1.0.4</aliyun-java-sdk-alikafka.version>
+        <aliyun-java-sdk-edas.version>2.41.7</aliyun-java-sdk-edas.version>
     </properties>
 
     <!-- Global dependencyManagement -->
@@ -148,12 +154,6 @@
 
             <!-- data source -->
             <dependency>
-                <groupId>mysql</groupId>
-                <artifactId>mysql-connector-java</artifactId>
-                <version>${mysql-driver.version}</version>
-                <scope>compile</scope>
-            </dependency>
-            <dependency>
                 <groupId>com.zaxxer</groupId>
                 <artifactId>HikariCP</artifactId>
                 <version>${HikariCP.version}</version>
@@ -161,7 +161,7 @@
             <dependency>
                 <groupId>org.mongodb</groupId>
                 <artifactId>bson</artifactId>
-                <version>${mongodb.version}</version>
+                <version>${mongodb-driver.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.mongobee</groupId>
@@ -209,27 +209,29 @@
                 <version>${io-micrometer.version}</version>
             </dependency>
 
+            <!-- Sentry-Java client  -->
+            <dependency>
+                <groupId>io.sentry</groupId>
+                <artifactId>sentry-spring-boot-starter</artifactId>
+                <version>${sentry.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.sentry</groupId>
+                <artifactId>sentry-spring</artifactId>
+                <version>${sentry.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.sentry</groupId>
+                <artifactId>sentry</artifactId>
+                <version>${sentry.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.sentry</groupId>
+                <artifactId>sentry-logback</artifactId>
+                <version>${sentry.version}</version>
+            </dependency>
+
             <!-- alibaba openSources -->
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>druid</artifactId>
-                <version>${alibaba.druid.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>druid-spring-boot-starter</artifactId>
-                <version>${alibaba.druid.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.drtrang</groupId>
-                <artifactId>druid-spring-boot-starter</artifactId>
-                <version>${druid-spring-boot.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.drtrang</groupId>
-                <artifactId>druid-spring-boot-actuator-starter</artifactId>
-                <version>${druid-spring-boot.version}</version>
-            </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
@@ -244,6 +246,16 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>easyexcel</artifactId>
                 <version>${alibaba.easyexcel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${alibaba.druid.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${alibaba.druid.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba.csp</groupId>
@@ -261,16 +273,28 @@
                 <version>${alibaba.csp.version}</version>
             </dependency>
 
-            <!-- elasticsearch -->
+            <!-- com.github.drtrang druid extends -->
             <dependency>
-                <groupId>org.apdplat</groupId>
-                <artifactId>word</artifactId>
-                <version>${word.version}</version>
+                <groupId>com.github.drtrang</groupId>
+                <artifactId>druid-spring-boot2-autoconfigure</artifactId>
+                <version>${drtrang.druid.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.github.drtrang</groupId>
+                <artifactId>druid-spring-boot2-actuator-autoconfigure</artifactId>
+                <version>${drtrang.druid.version}</version>
+            </dependency>
+
+            <!-- elasticsearch -->
             <dependency>
                 <groupId>org.elasticsearch.client</groupId>
                 <artifactId>elasticsearch-rest-high-level-client</artifactId>
                 <version>${elasticsearch.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apdplat</groupId>
+                <artifactId>word</artifactId>
+                <version>${word.version}</version>
             </dependency>
 
             <!-- open-sources -->
@@ -340,6 +364,23 @@
                 <groupId>io.jaegertracing</groupId>
                 <artifactId>jaeger-client</artifactId>
                 <version>${jaeger-client.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.skywalking</groupId>
+                <artifactId>skywalking-trace-receiver-plugin</artifactId>
+                <version>${apache.skywalking-plugin.version}</version>
+            </dependency>
+
+            <!-- KeyCloak -->
+            <dependency>
+                <groupId>org.keycloak</groupId>
+                <artifactId>keycloak-core</artifactId>
+                <version>${keycloak.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.keycloak</groupId>
+                <artifactId>keycloak-spring-boot-starter</artifactId>
+                <version>${keycloak.version}</version>
             </dependency>
 
             <!-- java jsr -->
@@ -469,6 +510,12 @@
                 <artifactId>aliyun-java-sdk-alikafka</artifactId>
                 <version>${aliyun-java-sdk-alikafka.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-edas</artifactId>
+                <version>${aliyun-java-sdk-edas.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
