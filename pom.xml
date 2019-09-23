@@ -99,7 +99,7 @@
         <ip2region.version>1.7.2</ip2region.version>
         <jaeger-client.version>0.34.0</jaeger-client.version>
         <apache.skywalking-plugin.version>6.0.0-GA</apache.skywalking-plugin.version>
-        <keycloak.version>5.0.0</keycloak.version>
+        <keycloak.version>7.0.0</keycloak.version>
 
         <!-- java jsr -->
         <javax-inject.version>1</javax-inject.version>
